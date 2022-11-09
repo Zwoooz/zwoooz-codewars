@@ -12,6 +12,6 @@ module.exports = {
   },
   rules: {
     radix: 0,
-    'no-unused-vars': 1,
+    'no-unused-vars': 0,
   },
 };
