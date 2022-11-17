@@ -132,3 +132,6 @@ dist
 # test files
 test/
 index.js
+
+# macOS garbage
+.DS_Store
