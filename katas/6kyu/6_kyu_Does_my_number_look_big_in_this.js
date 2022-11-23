@@ -3,6 +3,6 @@ function narcissistic(value) {
   Array.from(String(value), Number).forEach((element) => {
     tested += element ** value.toString().length;
   });
-  if (tested === value) return true;
+  if(tested === value) return true;
   return false;
 }

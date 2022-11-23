@@ -7,10 +7,10 @@ function high(x) {
     element.split('').forEach((e) => {
       score += e.charCodeAt(0) - 96;
     });
-    if (score > prevScore) {
+    if(score > prevScore) {
       sulution = element;
       prevScore = score;
-    } else if (score === prevScore) {
+    } else if(score === prevScore) {
       prevScore = score;
     }
     score = 0;
