@@ -1,3 +1,4 @@
+/* eslint-disable */
 // ATTEMPT 1: looping through all numbers until match is found n --> 0
 /* function nextSmaller(n) {
   const contains = Array.from(String(n), Number).sort();

@@ -14,5 +14,6 @@ module.exports = {
     radix: 0,
     'no-unused-vars': 0,
     'keyword-spacing': ['error', { after: false }],
+    'max-len': ['error', { ignoreComments: true, code: 100 }],
   },
 };
