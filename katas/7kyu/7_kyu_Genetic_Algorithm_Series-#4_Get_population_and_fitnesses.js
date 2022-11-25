@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/567b468357ed7411be00004a
 const mapPopulationFit = (population, fitness) => {
   const populationFit = [];
   population.forEach((element) => {

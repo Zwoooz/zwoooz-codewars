@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/5264d2b162488dc400000001
 function spinWords(string) {
   const arr = string.split(' ');
   const sulution = [];

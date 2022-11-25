@@ -1,3 +1,5 @@
+/* eslint max-len: 0 */
+// https://www.codewars.com/kata/52685f7382004e774f0001f7
 function humanReadable(input) {
   let seconds = input;
   const hours = Math.floor(seconds / 3600);

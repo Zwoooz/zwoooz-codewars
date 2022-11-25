@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/567b21565ffbdb30e3000010
 const select = (population, fitnesses) => {
   const popArr = [];
   population.forEach((element, index) => {

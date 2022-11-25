@@ -1,4 +1,5 @@
 /* eslint  prefer-destructuring: 0, default-case: 0 */
+// https://www.codewars.com/kata/5765870e190b1472ec0022a2
 function pathFinder(maze) {
   const pos = [0, 0];
   const mazeFlat = maze.replace(/[\r\n]/g, '');
