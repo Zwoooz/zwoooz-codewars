@@ -9,6 +9,7 @@ function pathFinder(maze) {
   let forward = 'right!';
 
   while(pos.join('') !== [n - 1, n - 1].join('')) {
+    console.log(pos);
     switch(forward) {
       case'right!':
         // Check if "left" of forward is empty:
