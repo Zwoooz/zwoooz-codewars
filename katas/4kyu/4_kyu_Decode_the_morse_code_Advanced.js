@@ -1,4 +1,7 @@
 /* eslint no-undef: 0, func-names: 0 */
+
+// https://www.codewars.com/kata/54b72c16cd7f5154e9000457
+
 const decodeBits = function (bits) {
   const bitsTrimed = bits.replace(/^0+|0+$/g, '');
   const timeUnit = Math.min(...bitsTrimed.match(/1+|0+/g).map((x) => x.length));
