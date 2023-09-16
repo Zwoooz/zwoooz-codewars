@@ -1,4 +1,5 @@
 /* eslint-disable no-param-reassign */
+// https://www.codewars.com/kata/52742f58faf5485cae000b9a
 function formatDuration(input) {
   const readable = {};
   if(!input) return'now';
